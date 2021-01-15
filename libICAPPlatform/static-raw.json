@@ -1,0 +1,138 @@
+{
+  "Dev": {
+    "Alias": "",
+    "Name": "Device00011"
+  },
+  "Sys": {
+    "OS": "Ubuntu 16.04.5 LTS",
+    "OSVer": "16.04.5 LTS (Xenial Xerus)",
+    "OSArch": "Linux 4.4.38-tegra aarch64",
+    "Name": "tegra-ubuntu",
+    "Longitude": 121.639734,
+    "Latitude": 25.06195
+  },
+  "CPU": {
+    "Manu": "",
+    "Name": "ARMv8 Processor rev 3 (v8l)",
+    "Numofcore": 4,
+    "L2": 2048,
+    "L3": 0
+  },
+  "MB": {
+    "Manu": "Aetina Corporation.",
+    "Product": "ACE-N310",
+    "SN": "01210170531111",
+    "BIOSManu": "",
+    "BIOSVer": "",
+    "mbTemp": {}
+  },
+  "MEM": {
+    "Cap": 20971520,
+    "Slot": {
+      "0": {
+        "Type": "DDR4",
+        "PN": "i-DIMM",
+        "Manu": "InnoDisk Corporation",
+        "Cap": 4,
+        "SN": "00000006",
+        "Date": "24 / 18",
+        "DIMMType": "ECC UDIMM",
+        "OPTemp": "N/A*",
+        "IC_Cfg": "512Mb x 8",
+        "IC_Brand": "Innodisk",
+        "Therm": "N/A",
+        "CAS_Ltc": 17.22,
+        "Rate": 2132,
+        "Feature": {
+          "sICGrade": "Original Grade (IC P/N visible on IC)",
+          "AntiSul": 0,
+          "30GF": true,
+          "45GF": true,
+          "bWP": true
+        }
+      },
+      "1": {
+        "Type": "DDR4",
+        "PN": "i-DIMM",
+        "Manu": "InnoDisk Corporation",
+        "Cap": 4,
+        "SN": "00000006",
+        "Date": "24 / 18",
+        "DIMMType": "ECC UDIMM",
+        "OPTemp": "N/A*",
+        "IC_Cfg": "512Mb x 8",
+        "IC_Brand": "Innodisk",
+        "Therm": "N/A",
+        "CAS_Ltc": 17.83,
+        "Rate": 2132,
+        "Feature": {
+          "sICGrade": "Original Grade (IC P/N visible on IC)",
+          "AntiSul": 1,
+          "30GF": true,
+          "45GF": true,
+          "bWP": false
+        }
+      }
+    }
+  },
+  "Storage": [
+    {
+      "Index": 0,
+      "Model": "2.5\"SATA SSD 3ME3",
+      "SN": "BCADevice00018",
+      "FWVer": "S16425",
+      "Par": {
+        "TotalCap": 250051725,
+        "NumofPar": 1,
+        "ParInfo": [
+          {
+            "MountAt": "sda",
+            "Capacity": 249544704
+          }
+        ]
+      }
+    },
+    {
+      "Index": 1,
+      "Model": "2.5\"SATA SSD 3ME3",
+      "SN": "BCADevice00019",
+      "FWVer": "S16425",
+      "Par": {
+        "TotalCap": 250051725,
+        "NumofPar": 1,
+        "ParInfo": [
+          {
+            "MountAt": "sda",
+            "Capacity": 249544704
+          }
+        ]
+      }
+    }
+  ],
+  "Net": [
+    {
+      "Name": "eth0",
+      "Type": "Ethernet",
+      "MAC": "aa:bb:cc:dd:ee:ff",
+      "IPv6": "",
+      "IPaddr": "192.168.12.12",
+      "Netmask": "255.255.255.0"
+    }
+  ],
+  "Ext": {},
+  "Remote": {},
+  "time": 1601272581,
+  "GPU": {
+    "Name": "NVIDIA Tegra X2",
+    "Arch": "NVIDIA Pascal??",
+    "DriverVer": "9.0",
+    "ComputeCap": "6.2",
+    "CoreNum": "256",
+    "MemType": "LDDR4",
+    "MemBusWidth": "128-bit",
+    "MemSize": "7846 MB",
+    "MemBandWidth": "59.7 GB/s",
+    "Clock": "1301 MHz",
+    "MemClock": "1600MHz"
+  }
+}
