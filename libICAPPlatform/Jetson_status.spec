@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['get_json.py'],
-             pathex=['/home/nvidia/iCAP/libICAPPlatform'],
+             pathex=['/home/nvidia/jetson_status/libICAPPlatform'],
              binaries=[],
              datas=[],
              hiddenimports=[],

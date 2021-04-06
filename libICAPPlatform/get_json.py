@@ -20,8 +20,8 @@ def get_GPUInfo():
     data = {"Name": "{Name}".format(Name = "Nvidia Jetson " + spec[0]),
     "Arch": "{Arch}".format(Arch = spec[1]),
     "DriverVer": "{DriverVer}".format(DriverVer = spec[2]),
-    "ComputeCap": "{Com}".format(Com = spec[3]),  #CUDA Compute Capability
-    "CoreNum": "{Core}".format(Core = spec[4]),
+    "ComputeCap": "{Com} ".format(Com = spec[3]),  #CUDA Compute Capability
+    "CoreNum": "{Core} ".format(Core = spec[4]),
     "MemType": "{MemT}".format(MemT = spec[5]),
     "MemBusWidth": "{MemBW1}".format(MemBW1 = spec[6]),
     "MemSize": "{MemS}".format(MemS = spec[7]),
