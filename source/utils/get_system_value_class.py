@@ -27,15 +27,15 @@ class get_system_value() :
         with jtop() as jetson:
             try:
                 BSP_Name = jetson.board['hardware']['CODENAME']
-                #print(BSP_Name)
                 BSP_list = BSP_Name.split("_")
+                module_name = BSP_list[3]
                 board_name = BSP_list[4]
-            
+
             except:
                 module_name = "Not Aetina Boarcd"
                 board_name = "UnKnown"
-
-            #self.__module_name = module_name
+            if "quill\x00" in self.__module_name:
+              self.__module_name = module_name
             self.__Board_name = board_name
     
     def __get_module_name(self):
