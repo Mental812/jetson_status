@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['get_json.py'],
+a = Analysis(['Main.py'],
              pathex=['/home/nvidia/jetson_status/libICAPPlatform'],
              binaries=[],
              datas=[],
