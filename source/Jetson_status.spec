@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['Main.py'],
-             pathex=['/home/nvidia/jetson_status/libICAPPlatform'],
+             pathex=[],
              binaries=[],
              datas=[],
              hiddenimports=[],
